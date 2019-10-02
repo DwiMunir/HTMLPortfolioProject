@@ -36,6 +36,7 @@ You can always open the index.html file directly in your browser and work throug
 cd HTMLPortfolioProject
 npm install
 npm start
+
 ```
 
 Running `npm start` should open a browser window pointing to `http://localhost:3000`. Now once you make changes to the files under the `/src` directory, your browser will refresh automatically, displaying the newest changes made to the files. This will save you the round trip of saving files and clicking refresh on your browser.
@@ -102,6 +103,7 @@ Putting this site up on GitHub pages is a bit different than some other projects
 
 ```
 git subtree push --prefix src origin gh-pages
+
 ```
 
 This will push the `src` folder up to GitHub on the `gh-pages` branch. After that, you should be able to open up `http://username.github.io/HTMLPortfolioProject`, where `username` is your GitHub username.
